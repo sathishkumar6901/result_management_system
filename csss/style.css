@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+header{
+    background-image:url(../image/index.jfif);
+    height:100vh;
+    background-size:2050px 950px;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: ;
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1900px;
+    margin:0 auto;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 20px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+
+.table{
+    margin-left:650px;
+}
+.search{
+    margin-left:700px;
+    margin-top:40px;
+}
+.name1{
+    font-size: 2rem;
+    padding-right: 5px;
+}
+.name2{
+    height: 3rem;
+}
+.box1{
+    height: 2rem;
+    width: 25rem;
+    background-color: rgb(209, 209, 209);
+}
+.box2{
+    height: 2rem;
+    width: 25rem;
+    background-color: rgb(209, 209, 209);
+}
+.standered1{
+    font-size: 2rem;
+   padding-right: 31px;
+}
+.standered2{
+    height: 5rem;
+ }
+.submit{
+    width:85px;
+    padding: 0.5rem;
+    margin-left:50px;
+}
+.submit:hover{
+    background-color: pink;
+    color: black;
+}
+.main-content-header{
+    border-top: 2px solid white;
+}
